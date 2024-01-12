@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(2, 100, 68);
+}
+section{
+    background-color: #012340;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 2px 2px 2px black;
+}
+#dados{
+    color: white;
+}
+header{
+    color: white;
+    text-align: center;
+    font: 30pt arial;
+}
+input#botão{
+    background-color: rgb(2, 104, 27);
+    color: white;
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+    display: block;
+    border: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+#botão:hover{
+    background-color: rgb(2, 187, 2);
+    cursor: pointer;
+}
+input{
+    border-radius: 5px;
+    border: black;
+    height: 50px;
+   font: 20pt arial;
+}
+p{
+    text-align: center;
+    font: 20pt arial;
+}
+#res{
+    display: block;
+    background-color: rgb(1, 77, 39);
+    margin: auto;
+    width: 300px;
+height: 120px;
+border-radius: 10px;
+margin-top: 5px;
+
+
+}
+
