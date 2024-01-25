@@ -5,7 +5,7 @@ function calcular(){
     if(n.value.length==0||h.value.length==0||p.value.length==0){
         alert('Complete as informações')
     }else{
-let res=document.getElementById('res')
+let text=document.getElementById('text')
 var nome=n.value
 var hight=Number(h.value)
 var peso=Number(p.value)
@@ -20,5 +20,5 @@ var f=(peso/(hight*hight)).toFixed(1);
         
     }else if(f>25){
    classificação='peso acima do ideal'
-    } res.innerHTML=`${nome} seu IMC é ${f} e você está com o ${classificação}`}
+    } text.innerHTML=`${nome} seu IMC é ${f} e você está com o ${classificação}`}
     }
